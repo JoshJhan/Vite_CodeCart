@@ -9,3 +9,6 @@
 3. 能夠知道如何實現組件之間的數據傳遞
     - 父子組件、兄弟組件、後代組件
 4. 能夠知道如何在 vue3 的項目中全局配置 **axios**
+    - main.js 入口文件中進行配置
+    - app.config.globalProperties.$http = axios
+    
